@@ -1,0 +1,9 @@
+{
+  "name": "decentralized-bank",
+  "version": "0.1.0",
+  "author": "sepehr.develop@gmail.com",
+  "dependencies": {
+    "@openzeppelin/contracts": "^4.4.0",
+    "truffle": "^5.4.23"
+  }
+}
