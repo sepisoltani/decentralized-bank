@@ -9,7 +9,7 @@ contract DBC is ERC20 {
 
     event MinterChanged(address from, address to);
 
-    constructor() public payable ERC20("Decentralized Bank Currency", "DBC") {
+    constructor() payable ERC20("Decentralized Bank Currency", "DBC") {
         minter = msg.sender;
     }
 
